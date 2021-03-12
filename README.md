@@ -1,2 +1,2 @@
-# solid-computing-machine
+# Initial page
 

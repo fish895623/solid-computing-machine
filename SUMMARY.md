@@ -1,4 +1,7 @@
 # Table of contents
 
-* [solid-computing-machine](README.md)
+* [Initial page](README.md)
+* [Docker](docker.md)
+* [Kubernetes](kubernetes.md)
+* [Azure-Cli](azure-cli.md)
 
