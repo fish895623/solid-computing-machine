@@ -20,16 +20,13 @@ docker run --rm -it ubuntu:20.04 bash
 
 ## 이미지 빌드 방법
 
-{% code title="Dockerfile" %}
-
+#### __`Dockerfile`__
 ```Dockerfile
 FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get install --no-install-recommends -y nginx=1.18.0-0ubuntu1 \
     && rm -rf /var/lib/apt/list/
 ```
-
-{% endcode %}
 
 위 파일을 생성한다.
 
