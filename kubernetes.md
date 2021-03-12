@@ -2,14 +2,15 @@
 
 ## Orchestration Tool
 
- 여러 개의 컨테이너들을 관리하기 위한 툴
+여러 개의 컨테이너들을 관리하기 위한 툴
 
- 여러가지의 Orchestration Tool 이 있지만 효용성에서 Kubernetes가 높음
+여러가지의 Orchestration Tool 이 있지만 효용성에서 Kubernetes가 높음
 
- HA \( High availability \), FA \( Failover \) 을 지원하여 서버 구축으로서 제격
+HA \( High availability \), FA \( Failover \) 을 지원하여 서버 구축으로서 제격
 
 ## 예제
 
+{% code title="kube.yml" %}
 ```yaml
 apiVersion: v1
 kind: Service
@@ -44,3 +45,5 @@ spec:
         ports:
         - containerPort: 80
 ```
+{% endcode %}
+
