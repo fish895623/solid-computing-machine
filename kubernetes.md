@@ -48,3 +48,9 @@ spec:
 ```
 
 {% endcode %}
+
+아래 명령어를 실행하면 nginx가 실행됨
+
+```bash
+kubectl apply -f kube.yml
+```
