@@ -11,6 +11,7 @@ HA \( High availability \), FA \( Failover \) 을 지원하여 서버 구축으�
 ## 예제
 
 {% code title="kube.yml" %}
+
 ```yaml
 apiVersion: v1
 kind: Service
@@ -45,5 +46,5 @@ spec:
         ports:
         - containerPort: 80
 ```
-{% endcode %}
 
+{% endcode %}
