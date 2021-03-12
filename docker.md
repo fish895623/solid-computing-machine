@@ -20,7 +20,7 @@ docker run --rm -it ubuntu:20.04 bash
 
 ## 이미지 빌드 방법
 
-#### Dockerfile
+#### __`Dockerfile`__
 ```Dockerfile
 FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND noninteractive
