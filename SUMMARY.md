@@ -5,4 +5,3 @@
 * [Azure-Cli](azure-cli.md)
 * [Docker](docker.md)
 * [Kubernetes](kubernetes.md)
-

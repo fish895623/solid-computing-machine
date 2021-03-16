@@ -8,6 +8,22 @@
 
 하지만 가상환경은 커널까지 가상으로 구현을 한다면 컨테이너는 커널과 직접통신한다.
 
+## 설치
+
+### 1. Chocolatey 를 이용한 설치 \( 추천 \)
+
+만약 Chocolatey를 이미 설치한 상황이라면
+
+```bash
+choco install docker-desktop -yml
+```
+
+으로 설치가능하다.
+
+### 2. 인스톨러 받기
+
+[Download Docker Desktop](https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe) 다운로드받아 직접 설치해준다.
+
 ## 컨테이너 실행예제
 
 아래 명령어를 실행하면 ubuntu를 가상으로 구현 가능하다.
@@ -22,7 +38,7 @@ docker run --rm -it ubuntu:20.04 bash
 
 **`Dockerfile`**
 
-```text
+```Dockerfile
 FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get install --no-install-recommends -y nginx=1.18.0-0ubuntu1 \
@@ -60,4 +76,3 @@ docker login
 
 docker push __username__/__image_name__:__version__
 ```
-
