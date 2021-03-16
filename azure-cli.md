@@ -4,11 +4,9 @@
 
 ### Chocolatey 를 이용한 설치 \(추천\)
 
-powershell 을 관리자 권한으로 실행하여 아래 스크립트들을 azure-cli 설치도구를 설치한다.
+powershell 을 관리자 권한으로 실행 \(단축키 WIN + X, A\) 하여 아래 스크립트들을 azure-cli 설치도구를 설치한다.
 
-\(단축키 WIN + X, A\)
-
-```text
+```powershell
 Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
