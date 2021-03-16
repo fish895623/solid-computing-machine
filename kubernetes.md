@@ -11,7 +11,6 @@ HA \( High availability \), FA \( Failover \) 을 지원하여 서버 구축으�
 ## 예제
 
 {% code title="kube.yml" %}
-
 ```yaml
 apiVersion: v1
 kind: Service
@@ -52,7 +51,6 @@ spec:
             cpu: 10m
             memory: 100Mi
 ```
-
 {% endcode %}
 
 아래 명령어를 실행하면 nginx가 실행됨
@@ -71,3 +69,4 @@ kubectl get services
 ```
 
 브라우저에 EXTERNAL-IP 를 입력하면 nginx가 켜짐
+

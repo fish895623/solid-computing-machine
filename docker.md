@@ -20,9 +20,9 @@ docker run --rm -it ubuntu:20.04 bash
 
 ## 이미지 빌드 방법
 
-__`Dockerfile`__
+**`Dockerfile`**
 
-```Dockerfile
+```text
 FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get install --no-install-recommends -y nginx=1.18.0-0ubuntu1 \
@@ -45,7 +45,7 @@ docker build -t __username__/__image_name__:__version__ -f Dockerfile .
 
 계정 인증 방식이 token 형식으로 바뀌었다.
 
-dockerhub 으로 들어가서 유저 아이디를 클릭한후 Account Settings > Security > New Access Token 으로 토큰을 발행하여 사용한다.
+dockerhub 으로 들어가서 유저 아이디를 클릭한후 Account Settings &gt; Security &gt; New Access Token 으로 토큰을 발행하여 사용한다.
 
 ```bash
 docker login
@@ -60,3 +60,4 @@ docker login
 
 docker push __username__/__image_name__:__version__
 ```
+
