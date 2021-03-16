@@ -10,7 +10,7 @@
 
 ## 설치
 
-### 1. Chocolatey 를 이용한 설치 \( 추천 \)
+* ### Chocolatey 를 이용한 설치 \( 추천 \)
 
 만약 Chocolatey를 이미 설치한 상황이라면
 
@@ -20,7 +20,7 @@ choco install docker-desktop -yml
 
 으로 설치가능하다.
 
-### 2. 인스톨러 받기
+* ### 직접 인스톨러 받기
 
 [Download Docker Desktop](https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe) 다운로드받아 직접 설치해준다.
 
