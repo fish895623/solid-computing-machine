@@ -8,7 +8,7 @@ python -m pip install --no-cache-dir flask
 
 ### api test tool
 
-아래의 크롬 확장팩은 POST, GET 을 보다 쉽게 쓸수 있다.
+아래의 크롬 확장팩은 REST api를 보다 쉽게 쓸수 있다.
 
 [talend api tester](https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm)
 
@@ -38,3 +38,4 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0", port="5000")
 ```
 
+위의 코드를 실행시키면 파이썬 웹 서버가 실행된다.
